@@ -1,6 +1,7 @@
 body{
     margin: 5px 5px 5px 5px;
     padding: 5px 5px 5px 5px;
+    font-size: 110%;
 }
 header{
 
@@ -8,11 +9,11 @@ header{
     background-image:url("flywheel.jpg");
     padding: 2px 2px 2px 2px;
 }
-nav{
+nav a{
     text-decoration: black;
-    margin: auto;
+    margin: 5px 3px 3px 5px ;
     padding: 15px 10px 15px 10px;
-    border-radius:10px;
+    border-radius:5px;
 }
 .active{
     text-decoration: blue;
@@ -20,15 +21,25 @@ nav{
     padding: 15px 10px 15px 10px;
     background-color: white;
 }
-section{
-    display: inline;
+.left{
+    width: 20%;
+    display: inline-block;
+    float: left;
+    background-color: #20b2aa;
+    padding: 10px;
 }
-
+.right{
+    width: 40%;
+    margin-left: 2%;
+    display: inline-block;
+    float: left;
+}
 img{
     border: 5px solid black;
     padding-bottom: 15px;
     padding-top: 15px;
     margin: auto;
+    width: 4px;
 }
 
 
