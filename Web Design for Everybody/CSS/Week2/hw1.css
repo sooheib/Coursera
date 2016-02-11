@@ -2,45 +2,68 @@ body{
     margin: 5px 5px 5px 5px;
     padding: 5px 5px 5px 5px;
     font-size: 110%;
+    height: 800px;
+    width : 800px;
 }
 header{
-
-    background-color: white;
+    background-color: #264019;
+    color: #ffffff;
+    padding:15px 80px;
+    height: 150px;
+    width: 800px;
     background-image:url("flywheel.jpg");
-    padding: 2px 2px 2px 2px;
 }
+h1{ text-align: center;
+    color: #F2F2F2;
+    font-family: serif;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 80%;}
+
+h2{
+    color:#ffffff;
+    margin:2px;
+    padding:10px;}
+
 nav a{
     text-decoration: black;
-    margin: 5px 3px 3px 5px ;
+    margin: 10px ;
     padding: 15px 10px 15px 10px;
     border-radius:5px;
 }
+
 .active{
-    text-decoration: blue;
     border-radius: 10px;
     padding: 15px 10px 15px 10px;
-    background-color: white;
+    background-color:#F8F2F2;
+    color: #0C0B1C;
 }
-.left{
-    width: 20%;
+.left { float: left;
+    background-color: #516B29;
     display: inline-block;
-    float: left;
-    background-color: #20b2aa;
-    padding: 10px;
 }
-.right{
-    width: 40%;
-    margin-left: 2%;
-    display: inline-block;
-    float: left;
+
+.right{ float: top;
+    display: inline;
+    background-color: #ffffff;
+    text-indent: 10px;}
+section {
+    color:#000000;
+    background-color: #ffffff;
+    float:right;
+    width:300px;
 }
+
 img{
     border: 5px solid black;
     padding-bottom: 15px;
     padding-top: 15px;
     margin: auto;
-    width: 4px;
+    width: 120px;
+    height: 800px;
 }
+
 
 
 
